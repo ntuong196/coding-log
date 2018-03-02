@@ -1,5 +1,5 @@
-<h1>Listing posts</h1>
+<h1>Published Notes</h1>
 
 <%= render partial: @posts %>
 
-<%= link_to 'New Post', new_post_path %>
+<%= button_to 'Add Post', new_post_path, method: :get, class: "btn-primary" %>
